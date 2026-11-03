@@ -1,0 +1,4 @@
+{"config": {"peak_lr": 0.0008, "n_hidden": 800, "weight_decay": 0.1, "seed": 42, "epochs": 30, "dropout": 0.3, "activation": "gelu"}, "train_loss": 1.5956470370710063, "dev_loss": 1.953430509986274, "seconds": 1423.9104149169289, "names": []}
+{"config": {"peak_lr": 0.0005, "n_hidden": 800, "weight_decay": 0.1, "seed": 42, "epochs": 30, "dropout": 0.3, "activation": "gelu"}, "train_loss": 1.6037144267342003, "dev_loss": 1.9473635470720503, "seconds": 1423.9343539169058, "names": []}
+{"config": {"peak_lr": 0.0005, "n_hidden": 800, "weight_decay": 0.1, "seed": 42, "epochs": 30, "dropout": 0.4, "activation": "gelu"}, "train_loss": 1.685858124110545, "dev_loss": 1.9314225520316661, "seconds": 1436.909814167302, "names": []}
+{"config": {"peak_lr": 0.0008, "n_hidden": 800, "weight_decay": 0.1, "seed": 42, "epochs": 30, "dropout": 0.4, "activation": "gelu"}, "train_loss": 1.6765641810095944, "dev_loss": 1.933281566304775, "seconds": 1438.1353437076323, "names": []}

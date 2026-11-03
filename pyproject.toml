@@ -1,0 +1,12 @@
+[project]
+name = "ml-journey"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "graphviz>=0.21",
+    "jupyterlab>=4.6.5",
+    "matplotlib>=3.11.2",
+    "torch>=2.15.0",
+]

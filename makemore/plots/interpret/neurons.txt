@@ -1,0 +1,126 @@
+
+Layer 1: sees 2 chars, 595 distinct inputs in train
+  neuron 612 (selectivity 5.5): 'p' 1 back in 80%, last char a vowel in 15%
+    op  sp  ip  lp  .p  zp  pp  rp
+  neuron 221 (selectivity 5.4): 'd' 1 back in 85%, last char a vowel in 0%
+    id  dd  ld  ed  nd  zd  md  yd
+  neuron 263 (selectivity 5.4): 'z' 1 back in 75%, last char a vowel in 0%
+    oz  uz  xz  dz  cz  hz  sz  az
+  neuron 401 (selectivity 5.4): 'm' 2 back in 70%, last char a vowel in 40%
+    mi  ma  mh  me  mo  mn  ml  mr
+  neuron 450 (selectivity 5.3): 'g' 2 back in 80%, last char a vowel in 25%
+    gr  ga  gn  gj  gd  gm  gb  gu
+  neuron 724 (selectivity 5.3): 'q' 1 back in 70%, last char a vowel in 5%
+    cq  .q  aq  oq  cp  hq  uq  sq
+  neuron 212 (selectivity 5.3): 'p' 1 back in 70%, last char a vowel in 25%
+    ip  jp  np  ep  .p  mp  yp  op
+  neuron 725 (selectivity 5.3): 'x' 1 back in 60%, last char a vowel in 5%
+    xx  yx  ux  nx  ax  rx  zx  tx
+  neuron 728 (selectivity 5.2): 'q' 1 back in 70%, last char a vowel in 5%
+    eq  yq  iq  .q  aq  cq  dq  gy
+  neuron 288 (selectivity 5.2): 'm' 2 back in 80%, last char a vowel in 20%
+    mm  mr  mi  mv  mn  mu  ms  mc
+  neuron 719 (selectivity 5.2): 'q' 1 back in 65%, last char a vowel in 15%
+    .q  eq  sq  oq  iq  yq  cq  rq
+  neuron 441 (selectivity 5.2): 'f' 2 back in 85%, last char a vowel in 30%
+    fw  fo  ft  fn  fg  fa  fl  fs
+  neuron 235 (selectivity 5.2): 'g' 2 back in 65%, last char a vowel in 40%
+    ga  gh  gr  gy  gz  ge  gi  go
+  neuron 425 (selectivity 5.2): 'q' 1 back in 60%, last char a vowel in 5%
+    .q  sq  oq  nq  lq  aq  eq  hq
+  neuron   4 (selectivity 5.1): 'y' 2 back in 35%, last char a vowel in 45%
+    yy  yi  iy  oy  ya  oi  ia  .y
+  neuron  47 (selectivity 5.1): 'e' 2 back in 40%, last char a vowel in 45%
+    ey  ay  .y  ei  ef  ai  eo  af
+  neuron 145 (selectivity 5.1): 'd' 1 back in 35%, last char a vowel in 50%
+    ld  li  lo  .d  le  lh  .i  od
+  neuron 700 (selectivity 5.1): 'y' 1 back in 45%, last char a vowel in 25%
+    oy  xy  xa  od  xd  ry  oa  sy
+  neuron 397 (selectivity 5.1): 'q' 1 back in 45%, last char a vowel in 35%
+    nq  .q  yq  lq  cq  uq  hq  iq
+  neuron 394 (selectivity 5.1): 't' 1 back in 80%, last char a vowel in 0%
+    ot  ut  et  lt  tt  mt  it  at
+
+Layer 2: sees 4 chars, 20261 distinct inputs in train
+  neuron 432 (selectivity 11.9): '.' 4 back in 100%, last char a vowel in 75%
+    .dei  .day  .dee  .dai  ..ay  .daa  .dey  ..ei
+  neuron 587 (selectivity 11.3): 's' 1 back in 45%, last char a vowel in 35%
+    ques  qwes  cres  cros  .bur  .bes  qusa  pres
+  neuron 570 (selectivity 11.0): '.' 4 back in 60%, last char a vowel in 15%
+    phel  phne  .yne  .yel  phar  .yal  phyl  phaz
+  neuron 234 (selectivity 10.7): '.' 4 back in 70%, last char a vowel in 50%
+    .fen  .fra  .fre  .fou  .fle  .fab  .far  .fel
+  neuron 255 (selectivity 10.5): 'g' 4 back in 85%, last char a vowel in 35%
+    gaya  gamb  gama  gaet  gaut  gaia  gunt  gayi
+  neuron 114 (selectivity 10.3): 't' 1 back in 80%, last char a vowel in 10%
+    afet  .get  spet  rpet  ..et  .pet  .het  .gyp
+  neuron  76 (selectivity 10.2): 'r' 4 back in 75%, last char a vowel in 55%
+    rlei  rlay  rles  rlis  rlsi  rsei  rlai  rgei
+  neuron 325 (selectivity 10.2): 's' 2 back in 70%, last char a vowel in 5%
+    ngsl  owsl  ..sl  nnsl  misb  mesl  ..zl  .isb
+  neuron 112 (selectivity 10.0): 'l' 2 back in 60%, last char a vowel in 60%
+    acle  ..le  kher  khle  thle  ther  kale  inle
+  neuron  36 (selectivity 10.0): '.' 4 back in 85%, last char a vowel in 60%
+    ..po  .mow  .how  .kow  .cow  ..bo  ..ow  ..gw
+  neuron 332 (selectivity 9.8): 'o' 4 back in 45%, last char a vowel in 25%
+    oluw  oshn  olan  john  inqu  olaw  ..uw  elqu
+  neuron 383 (selectivity 9.8): 'u' 4 back in 65%, last char a vowel in 55%
+    unte  umnr  unse  unne  onte  ursh  untl  onst
+  neuron 287 (selectivity 9.7): 'n' 2 back in 40%, last char a vowel in 10%
+    rynl  .jac  rinl  .kac  tynl  lynl  tenl  avac
+  neuron 271 (selectivity 9.7): 'g' 3 back in 60%, last char a vowel in 85%
+    agha  agai  .gai  agdi  .gha  agma  agla  ..fu
+  neuron 221 (selectivity 9.7): 'p' 3 back in 50%, last char a vowel in 85%
+    rili  roli  ipli  ryli  ieli  .pau  ypho  riou
+  neuron 252 (selectivity 9.6): '.' 4 back in 70%, last char a vowel in 45%
+    .wil  .wul  foua  .win  .wor  folu  .wae  gwin
+  neuron  90 (selectivity 9.5): '.' 4 back in 55%, last char a vowel in 90%
+    uhsi  uhai  .asu  uhei  uhay  uise  .hai  .asi
+  neuron 493 (selectivity 9.5): 'i' 2 back in 60%, last char a vowel in 35%
+    vril  .wil  rril  fini  krid  hrid  .wri  fiza
+  neuron 512 (selectivity 9.4): 'a' 2 back in 65%, last char a vowel in 30%
+    iman  ihan  ahan  imor  imof  ayaw  imaa  ..aw
+  neuron 533 (selectivity 9.4): 'u' 4 back in 60%, last char a vowel in 65%
+    uhei  uhsi  uzey  ukea  uzie  ulei  .kei  chei
+
+Layer 3: sees 8 chars, 50391 distinct inputs in train
+  neuron 774 (selectivity 15.3): 'a' 4 back in 80%, last char a vowel in 0%
+    oluwalas  tellaros  laylaros  philopat  .mylaros  utumnros  bellaros  jaylaros
+  neuron 681 (selectivity 13.8): 'r' 2 back in 50%, last char a vowel in 80%
+    joanthon  johnathe  johnatho  .westbro  ..wilfre  hemingwa  ..caffre  johnatha
+  neuron 267 (selectivity 13.6): 'd' 6 back in 80%, last char a vowel in 30%
+    abdulmoh  abdulloh  abdulsam  abdulhad  abdulkar  abdullah  abdullat  abdulham
+  neuron 185 (selectivity 12.4): '.' 8 back in 65%, last char a vowel in 70%
+    .abubaka  abdelazi  abdulazi  ..buchan  .abeneze  aybellin  zabethan  .abdiazi
+  neuron 406 (selectivity 12.2): 'r' 2 back in 55%, last char a vowel in 55%
+    abethgra  ....stri  lunamari  ....stry  .cataley  .luzmari  .catheri  .cathlee
+  neuron 539 (selectivity 12.2): 'l' 7 back in 40%, last char a vowel in 15%
+    vladisla  uwadaras  utumnros  oluwafer  oluwalas  olamipos  oluwadam  ilaisaan
+  neuron  81 (selectivity 11.7): 'i' 1 back in 80%, last char a vowel in 95%
+    .olumide  ..domini  ..angeli  evangeli  axamilli  .ekemini  .hermini  avangeli
+  neuron 552 (selectivity 11.6): '.' 8 back in 100%, last char a vowel in 15%
+    ...valer  ..evalei  .annalei  .anapaol  ...videl  .anapaul  ..stokel  ...veren
+  neuron 704 (selectivity 11.6): 'o' 8 back in 85%, last char a vowel in 15%
+    oluwafer  oluwafem  oluwadam  oluwadem  oluwadar  oluwatam  oluwamay  oluwatim
+  neuron 369 (selectivity 11.5): '.' 8 back in 100%, last char a vowel in 40%
+    .abdinas  .abdulmo  .abdelaz  .abdulaz  .abdulel  .abdifat  .abdullo  .abdurra
+  neuron 338 (selectivity 11.5): '.' 8 back in 100%, last char a vowel in 95%
+    ...yazee  ....azre  ...garre  ...harne  ...ganne  ..yassee  ...garne  ..jackse
+  neuron 437 (selectivity 11.5): 'i' 2 back in 65%, last char a vowel in 20%
+    fiyinfol  eautiful  theophil  wrenleig  reenleig  whitleig  .fionnua  .finleig
+  neuron 753 (selectivity 11.3): '.' 8 back in 85%, last char a vowel in 75%
+    ycatheri  ....seni  .catheri  ykatheri  .catalei  ..abdiri  ..emmeli  .aubrean
+  neuron 348 (selectivity 11.3): 'a' 4 back in 50%, last char a vowel in 50%
+    aliyahma  elijahja  utumnros  ...yocha  ...jakha  maryclar  laylaros  ......gu
+  neuron 296 (selectivity 11.3): '.' 8 back in 75%, last char a vowel in 80%
+    .emmagra  bellagra  .lilygra  .ellagra  liviagra  .mariajo  .markeit  .lunagra
+  neuron 340 (selectivity 11.2): '.' 8 back in 75%, last char a vowel in 95%
+    .oluwani  .oluwata  .oluwati  boluwati  toluwani  .oluwada  toluwala  ...nocti
+  neuron 538 (selectivity 11.2): '.' 8 back in 80%, last char a vowel in 15%
+    .kingjos  .mariagu  .kingjam  oliviagr  .michonn  oliviaro  .annajam  ..erionn
+  neuron  50 (selectivity 11.1): '.' 8 back in 45%, last char a vowel in 45%
+    oluwaseu  .alfonsi  philopat  ...farou  annahros  fatoumat  .islaros  abduljab
+  neuron 786 (selectivity 11.0): 'g' 1 back in 80%, last char a vowel in 0%
+    khristop  berkleig  christop  burkleig  chrystop  rynnleig  koraleig  coraleig
+  neuron 303 (selectivity 11.0): 'e' 1 back in 60%, last char a vowel in 80%
+    .fidenci  uwasemil  ..izzabe  .fabiola  florenci  yelizabe  .claribe  giancarl
